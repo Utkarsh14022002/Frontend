@@ -6,6 +6,7 @@ import {CreateAccount} from './components/CreateAccount';
 import {ForgetPassword} from './components/ForgetPassword';
 import {ForgetUserID} from './components/ForgetUserID';
 import{SetNewPassword} from './components/SetNewPassword';
+import {NewUser} from './components/NewUser';
 import "./App.css";
 
 
@@ -20,7 +21,8 @@ function App() {
       <Route exact path='/forgetPassword' element={<ForgetPassword/>}/>
       <Route exact path='/forgetUserID' element={<ForgetUserID/>}/>
       <Route exact path='/setNewPassword' element={<SetNewPassword/>}/>
-    </Routes>
+      <Route exact path='/newUser' element={<NewUser/>}/>
+  </Routes>
   
    </Router>
   
